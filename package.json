@@ -1,0 +1,17 @@
+{
+  "name": "ldx-clone",
+  "version": "1.0.0",
+  "description": "惰性深克隆",
+  "main": "./dist/lib.commonjs.js",
+  "module": "./dist/lib.esm.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "ldx",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
