@@ -20,8 +20,10 @@
 ```javascript
   // npm下载
   npm install ldx-clone --save
+
   // esModule导入
   import { produce } from 'ldx-clone'
+
   // 拷贝对象
   const state = {
     info: {
@@ -34,10 +36,12 @@
     },
     data: [1],
   };
+
   // 调用函数进行拷贝并传入回调在初始时修改对象数据
   const data = produce(state, (draftState) => {
     draftState.info.age = 26;
     draftState.info.career.first.name = "222";
   });
+  
   console.log("data", data,state);
 ```
