@@ -1,4 +1,5 @@
 # ldx-clone
+惰性深克隆，高性能的js克隆
 
 ## 传统的深拷贝做法
 - JSON.parse(JSON.stringify(data)) 
